@@ -20,6 +20,12 @@ const NavBar = () => {
         }}
       />
       <Button
+        title="Pomodoro"
+        btnFunction={() => {
+          navigate("/pomodoro");
+        }}
+      />
+      <Button
         title="About"
         btnFunction={() => {
           navigate("/about");
